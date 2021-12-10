@@ -1,11 +1,16 @@
 import { Flex, Button } from '@chakra-ui/react'
+import Link from 'next/link'
 
 export default function Home() {
   return (
-    <Flex d="grid" placeItems="center" h="100vh" w="100%" bg="gray.200">  
-      <Flex h="400px" w="400px" justify='center' align='center'>
-        <Button w="200px" p="20px" fontSize="20px" color="yellow.600" bg="gray.700" _hover={{opacity: '0.8'}}>Enter with Github</Button>
-      </Flex>
+    <Flex w="100%" h="100vh" justifyContent='center' align='center' flexDir="column">
+    <h1>no have nothing here...</h1>
+    <h3>access /dashboard or 
+      <Link href="/dashboard">
+        <a style={{color:'blue'}}> click here</a>
+      </Link>
+    </h3>
+    
     </Flex>
   )
 }

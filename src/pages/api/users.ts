@@ -1,5 +1,4 @@
 import { NextApiHandler, NextApiRequest, NextApiResponse } from "next";
-import faker from 'faker'
 
 const users = [
   {id:1, name: "Higor Example",avatar_url: "https://avatars.githubusercontent.com/u/86208458?v=4", email: "higorexample@gmail.com", data:"30/07/2021", hora: "15:49", number: 155542, method: "Cartão de Crédito - Visa"},
