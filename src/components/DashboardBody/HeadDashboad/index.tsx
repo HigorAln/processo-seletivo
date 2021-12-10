@@ -5,7 +5,8 @@ import { SearchBox } from './SearchBox'
 
 export function HeadDashboad(){
   const { data: session } = useSession()
-  console.log(session)
+  
+  
   return(
     <Flex w="100%" h="3rem" justifyContent="space-between">
       <Box>
